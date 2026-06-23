@@ -17,3 +17,10 @@
 
 ```bash
 python ai_agent/velabridge_ai_demo.py
+```
+
+如果 Windows 环境中的 `python` 命令指向系统占位程序，也可以使用：
+
+```bash
+py ai_agent/velabridge_ai_demo.py
+```

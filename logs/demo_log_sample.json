@@ -1,26 +1,43 @@
 {
-  "project": "VelaBridge",
-  "mode": "mvp_demo",
+  "device_id": "velabridge-mvp-001",
+  "session_id": "demo-session-20260623-001",
+  "privacy_mode": true,
   "events": [
     {
-      "time": "2026-06-23 20:00:01",
-      "event": "caption_display",
-      "content": "你好，请说慢一点，谢谢。"
+      "timestamp": "2026-06-23T09:00:00+08:00",
+      "event_type": "caption",
+      "content": "请到 3 号窗口办理。",
+      "mode": "normal"
     },
     {
-      "time": "2026-06-23 20:00:05",
-      "event": "quick_reply",
-      "content": "请说慢一点，谢谢。"
+      "timestamp": "2026-06-23T09:00:08+08:00",
+      "event_type": "quick_reply",
+      "content": "请说慢一点，谢谢。",
+      "mode": "normal"
     },
     {
-      "time": "2026-06-23 20:00:08",
-      "event": "blind_mode_on",
-      "content": "已进入盲人模式。"
+      "timestamp": "2026-06-23T09:00:16+08:00",
+      "event_type": "blind_mode_enter",
+      "content": "进入盲人模式，语音菜单已开启。",
+      "mode": "blind"
     },
     {
-      "time": "2026-06-23 20:00:12",
-      "event": "emergency_help",
-      "content": "你好，我需要帮助，请帮我确认当前位置。"
+      "timestamp": "2026-06-23T09:00:22+08:00",
+      "event_type": "vibration",
+      "content": "短震 2 次：模式切换确认。",
+      "mode": "blind"
+    },
+    {
+      "timestamp": "2026-06-23T09:00:40+08:00",
+      "event_type": "emergency_help",
+      "content": "我需要帮助。",
+      "mode": "emergency"
+    },
+    {
+      "timestamp": "2026-06-23T09:01:00+08:00",
+      "event_type": "ai_summary",
+      "content": "本次沟通中，设备显示窗口办理提示，用户请求对方放慢语速，随后进入盲人模式并触发一次紧急求助。",
+      "mode": "normal"
     }
   ]
 }
