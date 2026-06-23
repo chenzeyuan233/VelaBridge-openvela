@@ -23,7 +23,6 @@
 *.dll
 *.so.*
 
-
 # Fortran module files
 *.mod
 *.smod
@@ -57,6 +56,16 @@ compile_commands.json
 *.log
 *.bak
 *.swp
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
 
 # vcpkg
 vcpkg_installed/
