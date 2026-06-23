@@ -1,0 +1,26 @@
+{
+  "project": "VelaBridge",
+  "mode": "mvp_demo",
+  "events": [
+    {
+      "time": "2026-06-23 20:00:01",
+      "event": "caption_display",
+      "content": "你好，请说慢一点，谢谢。"
+    },
+    {
+      "time": "2026-06-23 20:00:05",
+      "event": "quick_reply",
+      "content": "请说慢一点，谢谢。"
+    },
+    {
+      "time": "2026-06-23 20:00:08",
+      "event": "blind_mode_on",
+      "content": "已进入盲人模式。"
+    },
+    {
+      "time": "2026-06-23 20:00:12",
+      "event": "emergency_help",
+      "content": "你好，我需要帮助，请帮我确认当前位置。"
+    }
+  ]
+}
